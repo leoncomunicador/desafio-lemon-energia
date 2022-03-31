@@ -1,0 +1,21 @@
+{
+  "name": "desafio-lemon-energia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoncomunicador/desafio-lemon-energia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoncomunicador/desafio-lemon-energia/issues"
+  },
+  "homepage": "https://github.com/leoncomunicador/desafio-lemon-energia#readme"
+}
