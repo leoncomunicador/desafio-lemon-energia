@@ -17,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/leoncomunicador/desafio-lemon-energia/issues"
   },
-  "homepage": "https://github.com/leoncomunicador/desafio-lemon-energia#readme"
+  "homepage": "https://github.com/leoncomunicador/desafio-lemon-energia#readme",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "express": "^4.17.3",
+    "mocka": "^0.0.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
 }
