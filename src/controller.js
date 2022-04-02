@@ -1,18 +1,13 @@
-const getRote = (req, res) => {
-  const dadosCliente = req.body;
-  let historico = dadosCliente.historicoDeConsumo;
-  let somaConsumo = historico.reduce((acc, cur) => acc + cur, 0);
-  let mediaConsumo = somaConsumo / 12;
-  let economiaAnualDeCO2 = (somaConsumo * 84) / 1000;
-  
+const statusClient = (req, res) => {
+  const { historicoDeConsumo } = req.body;
 
-   mediaConsumo.toFixed(2); // 5509.17
-  
-  
+  let somaConsumo = historicoDeConsumo.reduce((acc, cur) => acc + cur, 0) / historicoDeConsumo.length;
+  let economiaAnualDeCO2 = (somaConsumo * 84) / 1000;
+
   return res.status(200).json({elegivel: true, economiaAnualDeCO2: economiaAnualDeCO2});  
 };
 
 
 export {
-  getRote,
+  statusClient,
 };
