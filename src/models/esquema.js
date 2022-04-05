@@ -1,6 +1,6 @@
-import { tiposDeConexao, classesDeConsumo, modalidadesTarifarias, cpf, cnpj } from './tipos'
+import { tiposDeConexao, classesDeConsumo, modalidadesTarifarias, cpf, cnpj } from './types.js'
 
-const enumOf = values => ({
+const enumOf = (values) => ({
   type: typeof values[0],
   enum: values,
   example: values[0],
@@ -21,7 +21,7 @@ const input = {
     tipoDeConexao: enumOf(tiposDeConexao),
     classeDeConsumo: enumOf(classesDeConsumo),
     modalidadeTarifaria: enumOf(modalidadesTarifarias),
-    historicoDeConsumo: { // em kWh
+    historicoDeConsumo: {
       type: 'array',
       minItems: 3,
       maxItems: 12,
@@ -41,7 +41,7 @@ const output = {
       additionalProperties: false,
       required: ['elegivel', 'economiaAnualDeCO2'],
       properties: {
-        elegivel: enumOf([true]), // always true
+        elegivel: enumOf([true]),
         economiaAnualDeCO2: { type: 'number', minimum: 0 },
       },
     },
@@ -50,7 +50,7 @@ const output = {
       additionalProperties: false,
       required: ['elegivel', 'razoesDeInelegibilidade'],
       properties: {
-        elegivel: enumOf([false]), // always false
+        elegivel: enumOf([false]),
         razoesDeInelegibilidade: {
           type: 'array',
           uniqueItems: true,
@@ -68,7 +68,7 @@ const output = {
   ],
 }
 
-export default {
+export {
   input,
   output,
-}
+};

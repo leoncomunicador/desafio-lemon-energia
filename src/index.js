@@ -1,5 +1,5 @@
 import express from "express";
-import { statusClient } from "./controller.js";
+import { statusClient } from "./controllers/conta.js";
 import middleware from "./middlewares/filterParameters.js";
 import bodyParser from "body-parser";
 
