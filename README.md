@@ -1,7 +1,5 @@
 # Boas vindas ao repositório Lemon Energia
-Projeto feito durante processo seletivo para o cargo de desenvolvedor back-end jr para a Lemon Energia [(https://lemonenergy.notion.site/Teste-Backend-Lemon-9958a9678c0d4ac99185850fdb9716fcl)
-
-
+Projeto feito durante processo seletivo para o cargo de desenvolvedor back-end jr para a Lemon Energia 
 
 # Sumário
 
