@@ -37,7 +37,7 @@ Etapas de organização e desenvolvimento do projeto:
 ---
 
 # Tecnologias envolvidas:
-[Express](https://expressjs.com/pt-br/)
+[Express](https://expressjs.com/pt-br/): Utilizado para criação da rota POST
 
 [Jest](https://jestjs.io/pt-BR/): Utilizado para o desenvolvimento dos testes unitários
 
