@@ -53,7 +53,7 @@ Etapas de organização e desenvolvimento do projeto:
 
 # Requisitos desenvolvidos:
 
- 1.Criação da API
+ 1. Criação da API
  2. Cadastro do cliente
  3. Validação ou não de sua elegibilidade
  4. Aplicação de testes TDD
