@@ -1,7 +1,8 @@
-import express from "express";
-import { statusClient } from "./controllers/conta.js";
-import middleware from "./middlewares/filterParameters.js";
-import bodyParser from "body-parser";
+const express = require('express');
+const middleware = require("./middlewares/filterParameters.js");
+const { statusClient } = require("./controllers/conta.js");
+
+const bodyParser = require('body-parser');
 
 const app = express();
 

@@ -5,7 +5,7 @@ const classesAceitas = [
 ]
 const modalidadesAceitas = ['branca', 'convencional']
 
-export {
+module.exports = {
   classesAceitas,
   modalidadesAceitas
 }

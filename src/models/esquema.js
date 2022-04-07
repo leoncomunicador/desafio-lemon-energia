@@ -1,4 +1,4 @@
-import { tiposDeConexao, classesDeConsumo, modalidadesTarifarias, cpf, cnpj } from './types.js'
+const { tiposDeConexao, classesDeConsumo, modalidadesTarifarias, cpf, cnpj } = require('./types.js');
 
 const enumOf = (values) => ({
   type: typeof values[0],
@@ -68,7 +68,7 @@ const output = {
   ],
 }
 
-export {
+module.exports = {
   input,
   output,
 };

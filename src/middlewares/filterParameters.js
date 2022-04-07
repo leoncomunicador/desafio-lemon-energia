@@ -1,4 +1,4 @@
-import { classesAceitas, modalidadesAceitas } from '../models/tiposValidos.js';
+const { classesAceitas, modalidadesAceitas } = require('../models/tiposValidos.js');
 
 const media = (consumo) => {
   let mediaConsumo = consumo.reduce((acc, cur) => acc + cur, 0) / consumo.length;
@@ -55,6 +55,6 @@ const validaCliente = async (req, res, next) => {
   next();
 }
 
-export default {
+module.exports = {
   validaCliente
 };

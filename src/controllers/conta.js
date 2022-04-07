@@ -8,6 +8,6 @@ const statusClient = (req, res) => {
   return res.status(200).json({elegivel: true, economiaAnualDeCO2: economiaAnualDeCO2});  
 };
 
-export {
+module.exports = {
   statusClient,
 };
