@@ -108,7 +108,7 @@ Abra o terminal de sua máquina
 e digite o comando abaixo para clonar o projeto.  
   
   
-git clone [https://github.com/leoncomunicador/desafio-lemon-energia.git](https://github.com/leoncomunicador/desafio-lemon-energia.git)  
+`git clone https://github.com/leoncomunicador/desafio-lemon-energia.git `
   
   
   
